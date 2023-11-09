@@ -1,6 +1,6 @@
 import Countdownm from "./countdown.js";
 
-const diasPassados = new Countdownm("03 December 2022 14:20:00 GMT-0300");
+const diasPassados = new Countdownm("07 November 2023 14:20:00 GMT-0300");
 console.log(diasPassados.year);
 
 let month = 0;
