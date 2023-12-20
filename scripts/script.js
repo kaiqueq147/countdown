@@ -1,6 +1,6 @@
 import Countdownm from "./countdown.js";
 
-const diasPassados = new Countdownm("07 November 2023 23:45:00 GMT-0300");
+const diasPassados = new Countdownm("23 December 2023 23:00:00 GMT-0300");
 console.log(diasPassados.year);
 
 let month = 0;
@@ -57,4 +57,5 @@ setInterval(() => {
   $(".segundos-text").innerText = `${
     diasPassados.total.seconds == 1 ? "segundo" : "segundos"
   }`;
+  diasPassados.redirectToPage("https://www.twitch.tv/pazpeaceful");
 }, 1000);
